@@ -1,5 +1,7 @@
 # OpenGL_Image
 ## load image in opengl using opencv  
+如果如果圖片很小的話像素小不限制，但像素大的圖片像素大小限制要`4的倍數`  
+不然load進glTexImage2D會有`ig9icd32.dll 存取違規`問題  
 ![image](example.JPG)
 ### 安裝opencv
 教學: https://www.itread01.com/content/1546539304.html  
