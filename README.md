@@ -1,6 +1,6 @@
 # OpenGL_Image
 ## load image in opengl using opencv  
-![image](範例.JPG)
+![image](example.JPG)
 ### 安裝opencv
 教學: https://www.itread01.com/content/1546539304.html  
 opencv現在不提供x86版本(32-bit)，因此要下載比較舊的版本(2.4.9)  
@@ -10,7 +10,7 @@ opencv2.4.9地址：https://sourceforge.net/projects/opencvlibrary/files/opencv-
 組態選Debug，平台選Win32  
 屬性>VC++目錄>Include目錄 : 加入`opencv\build\include`  
 屬性>VC++目錄>程式庫目錄 : 加入`opencv\build\x86\vc12\lib`  
-連結器>輸入>其他相依性
+屬性>連結器>輸入>其他相依性
 ```
 opencv_ml249d.lib
 opencv_calib3d249d.lib
