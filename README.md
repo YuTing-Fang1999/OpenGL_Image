@@ -14,25 +14,9 @@ opencv2.4.9地址：https://sourceforge.net/projects/opencvlibrary/files/opencv-
 屬性>VC++目錄>程式庫目錄 : 加入`opencv\build\x86\vc12\lib`  
 屬性>連結器>輸入>其他相依性
 ```
-opencv_ml249d.lib
-opencv_calib3d249d.lib
-opencv_contrib249d.lib
 opencv_core249d.lib
-opencv_features2d249d.lib
-opencv_flann249d.lib
-opencv_gpu249d.lib
 opencv_highgui249d.lib
 opencv_imgproc249d.lib
-opencv_legacy249d.lib
-opencv_objdetect249d.lib
-opencv_ts249d.lib
-opencv_video249d.lib
-opencv_nonfree249d.lib
-opencv_ocl249d.lib
-opencv_photo249d.lib
-opencv_stitching249d.lib
-opencv_superres249d.lib
-opencv_videostab249d.lib
 ```
 
 ### dll問題
